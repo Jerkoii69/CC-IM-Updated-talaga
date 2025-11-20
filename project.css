@@ -1,0 +1,44 @@
+body { margin: 0; font-family: Arial, sans-serif; 
+}
+        header {
+            background:  #125a2a;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .hero {
+            background: #208320;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .hero h1 { font-size: 50px; margin-bottom: 10px; }    
+        section {
+            padding: 50px 30px;
+        }
+        h2 { color: #ffffff; margin-bottom: 20px; }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background: #f4f4f4;
+            padding: 20px;
+            width: 300px;
+            border-radius: 8px;
+        }
+        footer {
+            background: #125a2a;
+            color: #ddd;
+            padding: 20px;
+            text-align: center;
+        }
