@@ -10,20 +10,20 @@
             $tungolFirstName = $_REQUEST['tungolFirstName'];
             $tungolLastName = $_REQUEST['tungolLastName'];
             $tungolMail = $_REQUEST['tungolMail'];
-            $tungolUsername = $_REQUEST['tungolUsername'];
+            $StudentID = $_REQUEST['StudentID'];
             $tungolPassword = $_REQUEST['tungolPassword'];
             $tungolConfirmedPassword = $_REQUEST['tungolConfirmedPassword'];
             $tungolNumber = $_REQUEST['tungolNumber'];
 
             $tungol = "INSERT INTO registration VALUES ('$tungolFirstName',
-            '$tungolLastName','$tungolMail','$tungolUsername',
+            '$tungolLastName','$tungolMail','$StudentID',
             '$tungolPassword','$tungolConfirmedPassword','$tungolNumber')";
 
             if(mysqli_query($jerwin,$tungol))
             {
                 echo "<h1> Registration Successfuly!</h1>";
                 echo nl2br ("$tungolFirstName \n $tungolLastName \n
-                $tungolMail \n $tungolUsername \n $tungolPassword \n
+                $tungolMail \n $StudentID \n $tungolPassword \n
                 $tungolConfirmedPassword \n $tungolNumber ");
                 echo "<br> </br>";
                 echo '<a href="tungolLogin.php">

@@ -18,8 +18,8 @@
      <h1> Student Login</h1>
     <table>
         <tr>
-            <td><label for="tungolUsername" >Student ID</label></td>
-            <td><input type="text" name="tungolUsername" id="tungolUserName" placeholder="MA-12345678" required></td>
+            <td><label for="StudentID" >Student ID</label></td>
+            <td><input type="text" name="StudentID" id="StudentID" placeholder="MA-12345678" required></td>
         </tr>
 
         <tr>

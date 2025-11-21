@@ -29,12 +29,12 @@
 
              <tr>
                    <td><label for="tungolEmail"> Email </label></td>
-                   <td><input type="mail" name="tungolMail" id="tungolMail" required></td>
+                   <td><input type="email" name="tungolMail" id="tungolMail" required></td>
             </tr>
 
              <tr>
-                   <td><label for="tungolUSername">Student ID</label></td>
-                   <td><input type="text" name="tungolUsername" id="tungolUsername" placeholder="MA-12345678" required></td>
+                   <td><label for="StudentID">Student ID</label></td>
+                   <td><input type="text" name="StudentID" id="StudentID" placeholder="MA-12345678" required></td>
             </tr>
 
             <tr>
@@ -64,6 +64,7 @@
     </h2>
     </table>
     </form>
+     
     </Center>
 </body>
 </html>

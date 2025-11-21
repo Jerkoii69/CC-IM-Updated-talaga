@@ -6,11 +6,11 @@ if ($jerwin == false) {
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
 
-$username = $_POST['tungolUsername'];
+$username = $_POST['StudentID'];
 $password = $_POST['tungolPassword'];
 
 $query = "SELECT * FROM registration 
-          WHERE tungolUsername='$username' 
+          WHERE StudentID='$username' 
           AND tungolPassword='$password'";
 
 $result = mysqli_query($jerwin, $query);
